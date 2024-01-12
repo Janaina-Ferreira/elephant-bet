@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+/* Adicione estilos específicos para telas menores */
+@media screen and (max-width: 750px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+   
+      nav {
+        margin-top: 10px;
+    }
+    
+      .butao {
+        margin: 0;
+      }
+    
+      .slider {
+        width: 100%; /* Altere a largura para ocupar 100% da largura disponível */
+        max-width: none; /* Remova a restrição máxima de largura */
+        height: auto; /* Permita que a altura se ajuste automaticamente */
+      }
+  
+  
+   
+
+      
+      
+      
+      .inf img {
+       
+        max-width: 45%;
+        height: auto;
+        margin: 10px 3px;
+       
+      }
+ 
+    
+
+.elefante, .elefantee{
+  
+ 
+  font-size: 0.7em;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  background-color: rgb(224, 40, 141);
+}
+
+.menu a:hover {
+  
+  border-bottom: 3px solid #1F72C9;
+  color:#1F72C9;
+ 
+}
+.menu.show {
+  display: flex;
+}
+
+.menu li {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.hamburger-menu {
+ 
+  display: block;
+}
+
+.butao1{
+ font-size: 1.2em;
+}
+.butao2{
+  font-size: 1.2em;
+}
+}
+
+  
+  
+  

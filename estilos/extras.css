@@ -1,0 +1,66 @@
+div.todoss {
+  
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 0px;
+    background-color: white;
+  
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .video{
+      
+      margin: 0px -20px 30px -20px;
+      padding: 20px;
+      padding-bottom: 50%;
+      position: relative;
+       }
+    
+      .video>iframe{
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      width: 90%;
+      height: 90%;
+    }
+  
+  
+            section {
+              display: flex;
+              flex-direction: column;
+             
+              padding: 2px;
+          }
+  
+         
+        
+  
+          h1{
+              color:#1F72C9;
+          }
+
+          h1, p {
+            padding: 0px 20px;
+            margin: 30px 0px; /* Adiciona espaçamento acima e abaixo de h1 e p */
+        }
+
+            p{
+                text-align: justify;
+            }
+
+          strong {
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+        }
+
+       
+
+        @media screen and (max-width: 750px) {
+            p {
+                font-size: 0.8em;
+            }}
